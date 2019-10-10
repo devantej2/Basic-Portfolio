@@ -1,0 +1,103 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image: url('../images/mosaic.png');
+    
+  }
+
+h1,h2{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h2{
+
+}
+
+.name{
+    color: white;
+    background-color: #4aaaa5;
+    float: left;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    left: 350px;
+
+}
+header{
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    float: right;
+    padding: 20px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    word-spacing: 10px;
+    margin-right: 350px;
+
+}
+
+li{
+    display: inline;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: solid;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    padding: 20px;
+
+}
+
+
+section {
+
+}
+
+
+aside{
+    float: left;
+
+}
+.aboutImage{
+    width: 205px;
+    height: 220px;
+    float: left;
+    padding: 10px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #666666;
+}
+
+body{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+line-height: 1.5;
+}
+
+img {
+    /* Set the width of each image */
+    width: 200px;
+    /* Add some padding around each image */
+    padding: 5px;
+}
