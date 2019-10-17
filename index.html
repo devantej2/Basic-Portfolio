@@ -2,27 +2,30 @@
 <html>
 
 <head>
-    <title> My Portfolio </title>
+    <title> About Me </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1 class="name"> Devante Jones</h1>
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+    <header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Devante Jones</a>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+    </header>
 
-        </ul>
-    </div>
-    <div class="container">
-        <div class="main">
-            <h2> About Me </h2>
-            <img class="aboutImage" src="assets/images/cfa.jpg" alt="Guy wearing a Chick-fil-A shirt and laughing" />
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+
+            <img class="auth-image" src="assets/images/cfa.jpg" alt="Guy wearing a Chick-fil-A shirt and laughing" />
             <p>
-                Just a ordinary guy from Cairo, Georgia doing extraordinary things. Football was my life from age 5 to
+                Just an ordinary guy from Cairo, Georgia doing extraordinary things. Football was my life from age 5 to
                 age 24.
                 I can't not express enough gratitude towards the sport that evolved me into the person I am today. I've
                 battled
@@ -42,9 +45,16 @@
             <p>With much interest in automation, I am looking to learn as much as I can to better serve
                 the industry. Feel free to roam around and check out my portfolio!
             </p>
-        </div>
+
+        </section>
+
     </div>
-    <footer class="footer">Copyright &copy;</footer>
+
+      <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>
